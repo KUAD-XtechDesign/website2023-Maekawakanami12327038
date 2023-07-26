@@ -18,7 +18,7 @@ body {
 body {
   font-size: 16px;
   line-height: 1.6;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family:'Zen Kurenaido', sans-serif;
   color: #333333;
   letter-spacing: 0.05em;
   min-height: 100vh;
@@ -95,13 +95,14 @@ header .inner {
 /* ロゴ */
 #header_logo img {
   display: block;
-  width: 100px;
+  width: 120px;
 }
 
 /* メニュー */
 #global_menu {
   display: flex;
-  font-size: 23px;
+  font-size: 30
+  px;
   position: relative;
 }
 
@@ -316,7 +317,7 @@ reportページ
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/seisakubutu.jpg);
+  background-image: url(../images/seisakubutu.png);
   background-size: cover;
   background-position: center center;
   display: flex;
