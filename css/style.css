@@ -6,12 +6,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+font-weight: bold;}
 
 html,
 body {
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: #fffffc;
   position: relative;
 }
 
@@ -23,7 +23,8 @@ body {
   letter-spacing: 0.05em;
   min-height: 100vh;
   padding-bottom: 100px;
-}
+  font-weight: bold
+;}
 
 a {
   color: inherit;
@@ -80,7 +81,7 @@ header a {
 }
 
 header .inner {
-  background-color: #fff;
+  background-color: #ffff00;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -88,6 +89,7 @@ header .inner {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
   border-radius: 4px;
   margin: 20px;
+  color: #095e62a4;
 }
 
 /* ロゴ */
@@ -121,7 +123,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: #ffee05;
 }
 
 #menu_btn{
@@ -201,9 +203,10 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: #fff;
+  color: #1a110c;
   font-weight: bold;
-  background-image: url(../images/top.jpg);/* 背景画像 */
+  font-size: 50px;
+  background-image: url(../images/hutatimaru.jpeg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
   background-position: center center;/* 背景画像の位置 */
   background-attachment: fixed;/* スクロールしたときの背景画像の位置 固定 */
@@ -253,8 +256,8 @@ a.link_btn{
 a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
-  color: #fff;
-  background-color: #333;
+  color: #ff4f4f;
+  background-color: #fff0f0;
 }
 
 /* =================================================
@@ -313,7 +316,7 @@ reportページ
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/seisakubutu.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
